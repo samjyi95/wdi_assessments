@@ -1,4 +1,8 @@
-<img src="https://i.imgur.com/ser5chI.png">
+Not currently in use - see comments.
+
+Project 3 is run on a group project and the assessment is a self-reflection and a review from their group mates. It culminates in a one-on-one code review and coaching session with the instructional team.
+
+<!-- <img src="https://i.imgur.com/ser5chI.png">
 
 # Project 3 Assessment
 
@@ -111,5 +115,5 @@ Follow these steps to deploy your app:
 **Slack the deployed app's link to your instructors - congrats, you are done!**
 
 
-
+-->
 

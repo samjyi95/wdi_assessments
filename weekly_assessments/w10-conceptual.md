@@ -90,5 +90,5 @@ result = [food.upper() for food in foods if food.startswith('c')]
 
 #### 15. When defining a class, what is the naming convention? (1 point)
 
-##### Q16) What is the name of the special method in a class that is automatically called when creating an instance of the class?
+#### 16. What is the name of the special method in a class that is automatically called when creating an instance of the class? (1 point)
 

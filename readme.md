@@ -15,8 +15,8 @@ project week! Furthermore, you can consider the weekly assessments effectively a
 | 4 | Lesson (Full-Stack) | [Assessment](https://github.com/WDI-SEA/wdi_assessments/blob/master/weekly_assessments/w04-assessment.md) |
 | 5 | Lesson (Full-Stack) | [Assessment](https://github.com/WDI-SEA/wdi_assessments/blob/master/weekly_assessments/w05-assessment.md) [Bonus/Half Week](https://github.com/WDI-SEA/wdi_assessments/blob/master/weekly_assessments/w05-bonus-assessment.md) |
 | 6 | Project | Project 2 Assessment |
-| 7 | Lesson (React) | TBD |
-| 8 | Lesson (React) | TBD |
+| 7 | Lesson (React) | [Conceptual](https://github.com/WDI-SEA/wdi_assessments/blob/master/weekly_assessments/w07-conceptual.md) [React](https://github.com/WDI-SEA/wdi_assessments/blob/master/weekly_assessments/w07-react.md) |
+| 8 | Lesson (React) | [MERN Stack](https://github.com/WDI-SEA/wdi_assessments/blob/master/weekly_assessments/w08-assessment.md) |
 | 9 | Project | Project 3 Assessment |
 | 10 | Lesson (Python) | [Part 1: Mechanical](https://github.com/WDI-SEA/wdi_assessments/blob/master/weekly_assessments/w10-mechanical.md) <br> [Part 2: Conceptual](https://github.com/WDI-SEA/wdi_assessments/blob/master/weekly_assessments/w10-conceptual.md) |
 | 11 | Lesson (CS) | [Conceptual](https://github.com/WDI-SEA/wdi_assessments/blob/master/weekly_assessments/w11-assessment.md) | 

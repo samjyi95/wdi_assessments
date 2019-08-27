@@ -110,25 +110,7 @@ Congrats, that's all there is to it!
 
 ### STEP 4 - Deploy to GitHub Pages (10 minutes)
 
-Please follow these steps to deploy your app to GitHub Pages:
-
-1. In Terminal, create a local git repo: `$ git init`
-
-1. Make a commit: `$ git add -A && git commit -m "Initial commit"`
-
-1. In your GitHub account, create a new repository named `project-1-assessment`.
-
-1. Back in Terminal, add the `origin` remote:<br>`$ git remote add origin https://github.com/<your github username>/project-1-assessment.git`
-
-	> Be sure to replace **\<your github username\>** with your GitHub username!
-
-1. Create the `gh-pages` branch:<br>`$ git checkout -b gh-pages` 
-
-1. Now run the command `$ git push origin gh-pages` to deploy! Enter your credentials if necessary.
-
-1. Browse to `https://<your github username>.github.io/project-1-assessment` to check it out!
-
-> Note that the link might take a minute to become active.
+Please follow the steps from the in-class lesson to deploy to Github Pages.
 
 **Slack the deployed app's link to your instructors - congrats, you are done!**
 

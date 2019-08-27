@@ -4,7 +4,7 @@
 
 ## Introduction (By Instructor)
 
-Students who retake project 1 assessment are to be given class time to finish it, either in class or in another campus location and will be excused from whatever lab is going on in the class at that time. 
+Students who retake project 1 assessment will arrange with their instructor a time to finish it, either in the classroom or in another campus location. If this takes place during class time, the student will be excused from the lab or lesson going on in the class at that time, and the student will be marked present on the attendance tracker for that time period.
 
 ### GOAL
 
@@ -18,13 +18,9 @@ The goal of this final assessment is to gauge your ability to develop a **minima
     - Listen for browser events, such as `click`, being dispatched by DOM elements.
     - Manipulate a DOM element's content and style. 
 
-### DEMO
-
-The instructor will now demonstrate the app you will be building.
-
 ### OVERALL APPLICATION REQUIREMENTS
 
-As you saw, the application's UI consists of:
+The application's UI consists of:
 
 - A temperature display, in degrees Fahrenheit
 - A <input> element, in which the user can enter a number
@@ -33,15 +29,15 @@ As you saw, the application's UI consists of:
 
 Use the screenshots below as your "wireframes".
 
-Lastly, the styling does not have to be exact! Just make sure the functionality works!
+Lastly, the styling does not have to be exact! Just make sure the functionality works! Prioritize functionality first, styling second.
 
 ### PROCESS
 
 This assessment is an **individual** assignment - no collaboration please.
 
-The good news is that it's "open book" - you may reference anything on your computer, Google, use notes, etc. 
+The good news is that it's "open book" - you may reference anything on your computer, Google, use notes, etc., but the code should be original and not a copy-paste from another assignment.
 
-However, don't spend too much time researching unless you're stuck - **do not over-think this application!!!**
+However, don't spend too much time researching unless you're really stuck - **do not over-think this application!!!**
 
 It is estimated that this project assessment will take 60 to 90 minutes to complete. However, you have 3 hours should you need the extra time.
 
@@ -53,7 +49,7 @@ Please follow the following steps in order:
 - **STEP 2 - Set Up the App** (&asymp; 5 minutes)
 - **STEP 3 - Implement the App's Requirements** (&asymp; 40 minutes)
 - **STEP 4 - Deploy to GitHub Pages** (&asymp; 10 minutes)
-- **STEP 5 - Bonus**
+- **STEP 5 - Bonus** (please attempt the bonus if you have time!)
 
 **The times above are just estimated guidelines.**
 
@@ -67,7 +63,7 @@ Briefly read through the rest of this assignment to better understand what is re
 
 Be sure to follow best practices when setting up the project:
 
-- Create a folder named `project-1-assessment` outside of all repos.
+- Create a folder named `project-1-reassessment` outside of all repos.
 - Touch `index.html`
 - Touch `script.js`, and include it in `index.html` such that it runs after the DOM is ready.
 

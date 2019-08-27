@@ -1,4 +1,4 @@
-# Week 8 Assessment: MERN Stack - NAME: ___________  `__/9`
+# Week 8 Assessment: MERN Stack - NAME: ___________  `__/13`
 
 ## MERN stack and JWTs
 
@@ -38,10 +38,10 @@
 
 5. MERN stands for? (1 point)
 
-* a) Mongo Ember React Network
+* a) Mongo Ember React NoSQL
 * b) MEga React Nerds
 * c) MySQL Express Randomized Network
-* d) Memory Encryption Referenced Node
+* d) Markov Encryption Referenced NoSQL
 * e) Mongo Express React Node
 
 <br><br>
@@ -86,7 +86,7 @@
 
 <br><br>
 
-10. `ComponentDidMount` is an example of? (1 point)
+10. `componentDidMount` is an example of? (1 point)
 
 * a) A Reactor
 * b) A Constructor
@@ -96,13 +96,13 @@
 
 <br><br>
 
-11. What happens when you call `setState()` inside of `render()`?
+11. What happens when you call `setState()` inside of `render()`? (1 point)
 
-* a) Stack Overflow Error: setState triggers render 
+* a) Stack Overflow Error: setState retriggers render 
 * b) It causes undefined props in child components
 * c) It renders the old state instead of the new one 
-* d) Your computer will have a stroke
-* e) Nothing happens
+* d) ReferenceError: `this` is not defined in render
+* e) None of the above
 
 <br><br>
 
@@ -111,7 +111,7 @@
 * a) At every possible opportunity
 * b) After the 3pm slump
 * c) Only for reading, only if you must
-* d) Only when Taylor and Brandi can't see you
+* d) Only when Sarah and Brandi can't see you
 * e) When you want to impress your peers
 
 

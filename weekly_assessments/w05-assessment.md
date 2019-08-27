@@ -102,7 +102,7 @@ You're building an online store and need to track customer orders. You know orde
 
 8. Your answer for #7 is justified because... (1 point)
 
-* a) A clown can attend a birthday party
+* a) A clown can attend only one birthday party
 * b) A clown can attend multiple birthday parties
 * c) A birthday party can have multiple clowns
 * d) Many-to-Many is a byproduct of our ORM and doesn't have any meaning in raw SQL

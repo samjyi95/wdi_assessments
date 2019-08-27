@@ -62,9 +62,12 @@
 7. **Initial** state is set where? (1 point)
 
 * a) The `render()` function
-* b) The `constructor()` function
-* c) The event handlers
+* b) The `constructor()` function 
+* c) Directly as a property of the class
 * d) The `setState()` function
-* e) None of the above
-
+* e) b & c
+* f) a & c
+* g) c & d
+* h) All of the above
+* i) None of the above
 
