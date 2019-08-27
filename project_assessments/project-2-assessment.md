@@ -1,6 +1,4 @@
-Not currently in use - see comments.
-
-<!-- <img src="https://i.imgur.com/sX12DTc.png">
+<img src="https://i.imgur.com/sX12DTc.png">
 
 # Project 2 Assessment
 
@@ -173,6 +171,3 @@ The button deletes that widget from the database. For example, no more JavaScrip
 Do a final commit and push to your GitHub.
 
 **Slack your app's link to your instructors**
-
-Styling, for the most part is a bonus for this assessment. This thing does not need to be beautiful. Worry about functionality first and foremost. Priority one is that your routes work properly. Priority two is that your database works properly. Priority three is deployment. Get as far as you can within the allotted time frame.
--->
