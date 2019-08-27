@@ -4,97 +4,170 @@
 
 ## Introduction (By Instructor)
 
-Students will be self-directed through this assessment. Please read the requirements in their entirety before beginning any work. 
+This **Introduction** section will be read in class by the instructor.
+
+Students are to have their laptops closed until directed to open them.
+
+Students will be self-directed beginning with the **Instructions & Time Guidelines** section below.
 
 ### GOAL
 
-The goal of this project assessment is to gauge your ability to develop a minimal full-stack web application using NodeJS and the Express framework, including your ability to:
+The goal of this project assessment is to gauge your ability to develop a minimal full-stack web application using the Express framework running in Node, including your ability to:
 
-- Set up GET and POST routes
-- Install and use node modules
-- Use an ORM
-- Set up and properly use forms
-- Deploy your app 
+- Define a Model with Sequelize
+- Run Sequelize migrations
+- Define routes that perform basic CRUD and either redirect or render EJS templates
+- Write an EJS template that displays a list of data and shows a form
+- Demonstrate proper RESTful routing and naming conventions
 
-## Requirements
+### DEMO
 
-### Time Limit
+The instructor will now demonstrate the app you will be building.
 
-You will be given 3 hours of class time to complete this assignment. No late work will be accepted.
+### OVERALL APPLICATION REQUIREMENTS
 
-### Resources
+As you saw, the application consists of:
 
-This is an open book test. You are welcome to use class notes, books, or any resource on the internet.
+- A **SINGLE** page (template) with a title of "Wacky Widgets", that displays all widgets in the database and provides a form to add a new widget.
+- When browsing to the root route of the application (`http://localhost:3000`), the "Wacky Widgets" page is displayed.
+- The widgets were displayed in `<div>` elements (with provided styles).
+- Each widget's `<div>` has three things to display:
+    - The `description` field value
+    - The `quantity` field value
+    - A button used to delete a widget
+- After a widget is added or deleted, the app redirects back to the "Wacky Widgets" page.
+- If there are no widgets in the database, show a message "No Widgets Exist" instead of the table of widgets.
 
-### Technology Requirements
+Use the screenshots below as your "wireframes".
 
-In class, we've been using PostgreSQL, Sequelize, Node, Express, EJS, and Heroku, so by default, we'll assume that's what you're using for this assessment. However, you are welcome to use any framework, ORM, view engine, and cloud service you're comfortable with.
+There are a few "hints" offered along the way.
 
-> Protip: Don't learn something new just for this assessment. Use something you already know.
+The layout and styling of this assessment is secondary to its functionality. As long as the app behaves as required and displays all elements specified, you will pass.
 
-### App Requirements
+There is a CSS file included which styles the elements you might need. Feel free to use them.
 
-#### Routing
+### PROCESS
 
-Make an Express app with the following routes:
+This assessment is an **individual** assignment - no collaboration please.
 
-| METHOD | PATH | PURPOSE |
-| ---- | --------------- | ------------------------------------ |
-| GET | / | Home Page |
-| GET | /favorites | List of all favorite animals |
-| POST | /favorites | Add a new favorite animal |
-| GET | /favorites/new | A form for adding a new animal |
+It's "open book" - you may reference anything on your computer, Google, use notes, etc. 
 
-#### Database
+It is anticipated that it will take approximately **90 minutes** to complete this assessment, however, if necessary, you have up to 3 hours to finish.
 
-Make an `animal` model using Sequelize with the following schema:
+When finished you will demo your app to an instructor and slack them the link to your personal GitHub repo.
 
-| COLUMN | TYPE |
-| ----------------- | ---------------- |
-| id | integer |
-| species_name | string |
-| scientific_name | string |
-| image_url | string |
-| description | text |
-| extinct | boolean |
-| createdAt | date |
-| updatedAt | date |
+## Instructions & Estimated Time Guidelines (You've Got This!)
 
-#### Views
+Please follow the following steps in order:
 
-Your homepage can generally look however you'd like, but make sure there are visible links to your other two pages.
+- **STEP 1 - Prepare** (&asymp; 5 minutes)
+- **STEP 2 - Set Up the App** (&asymp; 10 minutes)
+- **STEP 3 - Implement the App's Requirements** (&asymp; 75 minutes)
+- **STEP 4 - Demo & Slack Link to Your Instructor**
 
-Your /favorites/new page should render a form that allows you to enter a new animal. This form should `post` to the /favorites route. There should be an input field for each value corresponding to the columns in your database schema. This will include:
+> The above times are just guidelines
 
-* species_name
-* scientific_name
-* image_url
-* description
-* extinct
+## Assessment Steps to Complete
 
-Your /favorites page contains a list showing each animal in your database. If the animal is extinct, show the species_name in red text. Otherwise show the species name in black text. The scientific_name should be shown in italic text beside or below the species_name. The image linked to by the image_url should be displayed at no larger than 300x300 pixels. The description should also be displayed somewhere.
+### STEP 1 - Prepare (&asymp; 5 minutes)
 
-#### Deployment
+Briefly read through the rest of this assignment to better understand what is required before starting to code.
 
-Please deploy your app on Heroku. Follow the class notes if you get lost or stuck. If you run into something truly weird that the class notes don't cover, the instructional team will render assistance, but this should be a much simpler task than deploying your project 2.
+### STEP 2 - Set Up the App (&asymp; 10 minutes)
 
-#### BONUS
+Fork and clone [the starter code repo](https://github.com/WDI-SEA/project-2-assessment) to get the starter code. All necessary node modules have been added as dependencies. For reference, here is what they are:
 
-You can do any number of things for bonus points including:
+* ejs
+* express
+* method-override
+* pg
+* sequelize
 
-- Implement a /favorites/:id route for each animal
-- Add a CSS framework or custom styling
-- Make your site responsive
-- Give your site a header and/or footer
-- Make your add animal form really nicely styled
-- Make your home page really exciting
-- Add a default image in case the user doesn't provide one
-- Implement flash messages for form/data entry errors
+You will need to install these after cloning down your fork using `npm i`.
 
-## Turn-in
+YOU DO NOT NEED TO RUN SEQUELIZE INIT!!!
 
-Put your heroku link into slack. This is all you need to do. After you are done with the test you are welcome to leave the room or sit quietly while others finish up. 
+The necessary sequelize files and folders are already in place and a **Mac** version of the config.json is present. **If you are using WSL on a PC, remember to add your username and password. See your instructor or IA if you need help with the configuration.**
 
-## Advice
+You **DO** need to create a database named exactly `unit2_assessment`. You can use the `createdb` command from postgres to do this.
 
-Styling, for the most part is a bonus for this assessment. This thing does not need to be beautiful. Worry about functionality first and foremost. Priority one is that your routes work properly. Priority two is that your database works properly. Priority three is deployment. Get as far as you can within the allotted time frame.
+The app does **not** use a user model nor authentication.
+
+This app will require only one data model - `widget`. Use normal sequelize commands to create this. The `widget` model only has two attributes:
+
+- `description` -  a `string`
+- `quantity` - an `integer`
+
+The app only requires a single EJS template, therefore there is no need to spend time installing and using EJS Layouts unless you want to.
+
+Some basic CSS is also provided to you.
+
+### STEP 3 - Implement the App's Requirements (&asymp; 75 minutes)
+
+#### Planning
+
+Before you start coding, think about your data and your routes. Refer to the big RESTful routing chart. (It's already set up for "widgets"! Ha!) You can *add* a widget. You can *delete* a widget. You *read an index* of all widgets. Those are the only actions you need to plan for. What are the HTTP verbs you use for those operations? What are the URLs? Refer to the chart!
+
+#### STEP 3.1 - Root Route
+
+Browsing to the root route of the application display your app's single template, i.e., _index.ejs_, with a title of "Wacky Widgets":
+
+<img src="https://i.imgur.com/qOnvKTj.png">
+
+The "Wacky Widget" page title is an `<h1>` element.
+
+#### STEP 3.2 - No Widgets in the Database
+
+After this step is completed, your app should look something like this:
+
+<img src="https://i.imgur.com/aLuM1GQ.png">
+
+When there are no widgets in the database, a "No Widgets Exist" message should be displayed.
+
+The "No Widgets Exist" is an `<h3>` followed by an `<hr>`.
+
+##### Hint
+
+You can use the `if` statement and the `length` property of the widgets to render different things in the template like this:
+
+```html
+<% if (widgets.length === 0) { %>
+
+<% } else { %>
+
+<% } %>
+```
+
+Note that the name of `widgets` will be the name of the variable holding the list of widgets.
+
+#### STEP 3.3 - Form for Adding Widgets
+
+After the form for adding a new widget has been added to the template, the display should look something like this:
+
+<img src="https://i.imgur.com/2Qnb450.png">
+
+The "Add Widget" heading is an `<h4>` below the `<hr>`.
+
+Then comes the `form` for the `widget` model.
+
+#### STEP 3.4
+
+When there are widgets in the database, the display should look something like this:
+
+<img src="https://i.imgur.com/JPpQCWR.png">
+
+Each widget is being displayed as a `<div>` with text elements inside it.
+
+The button deletes that widget from the database. For example, no more JavaScript Jelly Beans:
+
+<img src="https://i.imgur.com/XHLet6w.png">
+
+**Congrats, you're done!**
+
+### STEP 4 - Demo & Slack Link to Your Instructor
+
+**Take your computer and demo the app's functionality to your instructor.**
+
+Do a final commit and push to your GitHub.
+
+**Slack your app's link to your instructors**
