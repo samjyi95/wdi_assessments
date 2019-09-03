@@ -164,10 +164,10 @@ The button deletes that widget from the database. For example, no more JavaScrip
 
 **Congrats, you're done!**
 
-### STEP 4 - Demo & Slack Link to Your Instructor
+### STEP 4 - Demo & Slack Live Site Link to Your Instructor
 
 **Take your computer and demo the app's functionality to your instructor.**
 
-Do a final commit and push to your GitHub.
+Once you have completed the requirements, deploy the app to Heroku or some other platform of your choice. Take the link to the live site (not your Github repo), and send it via slack to your instructional team.
 
 **Slack your app's link to your instructors**
