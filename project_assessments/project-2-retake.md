@@ -87,6 +87,7 @@ Please deploy your app on Heroku. Follow the class notes if you get lost or stuc
 1. An extinct animal's name is rendered in red
 1. Homepage contains links to other pages (the full list and add new animal form)
 1. An image that is displayed has a max-width and max-height of 300px
+1. Scientific name is displayed in italics
 
 #### BONUS
 
