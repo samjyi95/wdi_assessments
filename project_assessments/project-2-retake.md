@@ -4,7 +4,7 @@
 
 ## Introduction (By Instructor)
 
-Students will be self-directed through this assessment. Please read the requirements in their entirety before beginning any work. 
+Students will be self-directed through this assessment. **Please read the requirements in their entirety before beginning any work.** 
 
 ### GOAL
 
@@ -20,7 +20,7 @@ The goal of this project assessment is to gauge your ability to develop a minima
 
 ### Time Limit
 
-You will be given 3 hours of class time to complete this assignment. No late work will be accepted.
+You will be given 3 hours to complete this assignment. No late work will be accepted.
 
 ### Resources
 
@@ -60,9 +60,11 @@ Make an `animal` model using Sequelize with the following schema:
 | createdAt | date |
 | updatedAt | date |
 
+> Protip: Sequelize gives you id, createdAt, and updatedAt by default. You don't need to have these in your `model:create` command.
+
 #### Views
 
-Your homepage can generally look however you'd like, but make sure there are visible links to your other two pages.
+Your homepage can generally look however you'd like, but make sure there are **visible links** to your other two pages.
 
 Your /favorites/new page should render a form that allows you to enter a new animal. This form should `post` to the /favorites route. There should be an input field for each value corresponding to the columns in your database schema. This will include:
 
@@ -72,17 +74,25 @@ Your /favorites/new page should render a form that allows you to enter a new ani
 * description
 * extinct
 
-Your /favorites page contains a list showing each animal in your database. If the animal is extinct, show the species_name in red text. Otherwise show the species name in black text. The scientific_name should be shown in italic text beside or below the species_name. The image linked to by the image_url should be displayed at no larger than 300x300 pixels. The description should also be displayed somewhere.
+Your /favorites page contains a list of all animals in your database. If the animal is extinct, show the species_name in red text. Otherwise show the species name in black text. The scientific_name should be shown in italic text beside or below the species_name. The image linked to by the image_url should be displayed at no larger than 300x300 pixels. The description should also be displayed somewhere.
 
 #### Deployment
 
 Please deploy your app on Heroku. Follow the class notes if you get lost or stuck. If you run into something truly weird that the class notes don't cover, the instructional team will render assistance, but this should be a much simpler task than deploying your project 2.
 
+#### Checklist
+
+1. All routes in above route table work
+1. App is deployed to Heroku or another platform
+1. An extinct animal's name is rendered in red
+1. Homepage contains links to other pages (the full list and add new animal form)
+1. An image that is displayed has a max-width and max-height of 300px
+
 #### BONUS
 
 You can do any number of things for bonus points including:
 
-- Implement a /favorites/:id route for each animal
+- Add a GET /favorites/:id page for a specific animal
 - Add a CSS framework or custom styling
 - Make your site responsive
 - Give your site a header and/or footer
@@ -90,11 +100,12 @@ You can do any number of things for bonus points including:
 - Make your home page really exciting
 - Add a default image in case the user doesn't provide one
 - Implement flash messages for form/data entry errors
+- Add a DELETE or PUT route for animals
 
 ## Turn-in
 
-Put your heroku link into slack. This is all you need to do. After you are done with the test you are welcome to leave the room or sit quietly while others finish up. 
+Put your heroku link into slack. Send this slack message to your whole instructional team including whoever is administering the exam. This is all you need to do. After you are done with the test you are welcome to leave the room or sit quietly while others finish up. 
 
 ## Advice
 
-Styling, for the most part is a bonus for this assessment. This thing does not need to be beautiful. Worry about functionality first and foremost. Priority one is that your routes work properly. Priority two is that your database works properly. Priority three is deployment. Get as far as you can within the allotted time frame.
+Styling, for the most part (unless listed as a requirement) is a bonus for this assessment. This thing does not need to be beautiful. Worry about functionality first and foremost. Priority one is that your routes work properly. Priority two is that your database works properly. Priority three is deployment. Get as far as you can within the allotted time frame.
