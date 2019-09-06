@@ -96,7 +96,7 @@ console.log(j);
 * a) 0
 * b) 4
 * c) 5
-* d) undefined
+* d) Not defined
 * e) None of the above
 
 <br><br>
