@@ -19,6 +19,7 @@ The goal of this final assessment is to gauge your ability to develop a **minima
 - Define and use State.
 - Pass data as props and use handler ("remote control") functions to modify another component's State.
 - Use AJAX libraries to retrieve data.
+- Deploy a React app made with `create-react-app` on Heroku
 
 ### DEMO
 
@@ -32,9 +33,7 @@ As you saw, the application's UI consists of:
 - Two buttons ("<" & ">")
 - A list of posts
 
-Use the screenshots below as your "wireframes".
-
-Lastly, the styling does not have to be exact, however, the closer it is to the screenshots, the better!
+> Tip: the styling does not have to be exact, however, get it as close as you can
 
 ### PROCESS
 
@@ -52,8 +51,8 @@ Please follow the following steps in order:
 
 - **STEP 1 - Prepare** (&asymp; 5 minutes)
 - **STEP 2 - Set Up the App** (&asymp; 10 minutes)
-- **STEP 3 - Implement the App's Requirements** (&asymp; 60 minutes)
-- **STEP 4 - Push to GitHub** (&asymp; 10 minutes)
+- **STEP 3 - Implement the App's Requirements** (&asymp; 60 to 90 minutes)
+- **STEP 4 - Deploy to Heroku** (&asymp; 10 minutes)
 
 **The times above are just estimated guidelines.**
 
@@ -67,12 +66,11 @@ Briefly read through the rest of this assignment to better understand what is re
 
 Be sure to follow best practices when setting up the project:
 
-- Outside of all repos in your unit3 folder, run `create-react-app project-3-assessment` to make the directory for this project.
+- Outside of all other git repos in your file system, run `create-react-app project-3-assessment` to make the directory for this project.
 - `cd` into the `project-3-assessment` directory.
 - Open the whole directory up in your editor.
-- Clean out and rename `App.js` to `App.jsx`.
 
-### STEP 3 - Implement the App's Requirements (60 minutes)
+### STEP 3 - Implement the App's Requirements (60 to 90 minutes)
 
 #### Upon Loading
 
@@ -86,7 +84,7 @@ Here is the API endpoint you will be querying:
 https://jsonplaceholder.typicode.com/posts?userId=3
 ```
 
-Note the query string at the end. Passing that key-value pair in will get you all the posts for user number 3. You can modify that value to get the posts for any user. Valid user IDs are 1 through 10.
+Note the query string at the end. Passing that key-value pair in will get you all the posts for user number 3. You can modify that value to get the posts for any user. Valid user IDs are 1 through 10. 
 
 #### When the ">" Button is Clicked
 
@@ -113,19 +111,14 @@ Remember, when planning and writing a React app you can follow the [Thinking In 
 1. Identify where state should live
 1. Add the functions that lift data up to the component holding state
 
-### STEP 4 - Push to GitHub (2 minutes)
+### STEP 4 - Deploy to Heroku (5 minutes)
 
-Please follow these steps to push your app to GitHub:
+Please follow these steps to push your app to Heroku:
 
 1. In Terminal, you should already have a local git repo created by `create-react-app`
 1. Make a commit: `git add -A && git commit -m "Initial commit"`
-1. In your GitHub account, create a new repository named `project-3-assessment`.
-1. Back in Terminal, add the `origin` remote:
+1. Use the following command to initialize a Heroku app with the React buildpack: `heroku create $APP_NAME --buildpack https://github.com/mars/create-react-app-buildpack.git`. Obviously, replace $APP_NAME with a unique name for your app! :)
+1. Push to Heroku `git push heroku master`
+1. Send the live site's link to all members of your instructional team. This link should be the website link, not a github link or anything like that. It will look something like `https://your-app-name.herokuapp.com` where `your-app-name` is whatever you actually named your app.
 
-```bash
-git remote add origin https://github.com/<your github username>/project-3-assessment.git
-```
-
-> Be sure to replace **\<your github username\>** with your GitHub username!
-
-1. Now run the command `git push origin master` push everything up to Github.
+Someone on the instructional team can verify that your app passes the requirements immediately. Once you are finished with this assessment, you are free to go enjoy your evening. 
