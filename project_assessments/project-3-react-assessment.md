@@ -113,7 +113,7 @@ Remember, when planning and writing a React app you can follow the [Thinking In 
 
 ### STEP 4 - Deploy to Heroku (5 minutes)
 
-Please follow these steps to push your app to Heroku:
+Please follow these steps to [push your app to Heroku](https://gawdiseattle.gitbook.io/wdi/00-config-deployment/react-deploy):
 
 1. In Terminal, you should already have a local git repo created by `create-react-app`
 1. Make a commit: `git add -A && git commit -m "Initial commit"`
