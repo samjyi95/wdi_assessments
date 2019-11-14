@@ -17,7 +17,7 @@ project week! Furthermore, you can consider the weekly assessments effectively a
 | 6 | Project | [Project 2 Assessment](https://github.com/WDI-SEA/wdi_assessments/blob/master/project_assessments/project-2-assessment.md) |
 | 7 | Lesson (React) | [Conceptual](https://github.com/WDI-SEA/wdi_assessments/blob/master/weekly_assessments/w07-conceptual.md) [React](https://github.com/WDI-SEA/wdi_assessments/blob/master/weekly_assessments/w07-react.md) |
 | 8 | Lesson (React) | [MERN Stack](https://github.com/WDI-SEA/wdi_assessments/blob/master/weekly_assessments/w08-assessment.md) |
-| 9 | Project | Project 3 Assessment |
+| 9 | Project | [Project 3 Assessment](https://github.com/WDI-SEA/wdi_assessments/blob/master/project_assessments/project-3-react-assessment.md) |
 | 10 | Lesson (Python) | [Part 1: Mechanical](https://github.com/WDI-SEA/wdi_assessments/blob/master/weekly_assessments/w10-mechanical.md) <br> [Part 2: Conceptual](https://github.com/WDI-SEA/wdi_assessments/blob/master/weekly_assessments/w10-conceptual.md) |
 | 11 | Lesson (CS) | [Conceptual](https://github.com/WDI-SEA/wdi_assessments/blob/master/weekly_assessments/w11-assessment.md) | 
 | 12 | Project | No Assessment! |
