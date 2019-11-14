@@ -1,7 +1,5 @@
 Not currently in use - see comments.
 
-Basically project 4 is turned in and presented on graduation day so it doesn't make a lot of sense to grade it or have an assessment.
-
 <!--
 
 <img src="https://i.imgur.com/sX12DTc.png">
