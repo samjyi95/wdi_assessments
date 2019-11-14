@@ -1,4 +1,5 @@
-# `WDI` Week 1 Assessment
+# SEI Week 1 Assessment
+
 ## NAME: ____________________ &nbsp; &nbsp; &nbsp; &nbsp; _______ of 17
 
 ### Bash (Terminal)
