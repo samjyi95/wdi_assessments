@@ -61,7 +61,7 @@ var lifeRafts = 2;
 1. Write an object literal named `brain` having a property with a key of `energyLevel` and a numeric value of `10`:
 <br><br>
 
-2. Assign the property of `energyLevel` to a variable named `energy`:
+2. Assign the value of the property `energyLevel` to a variable named `energy`:
 <br><br>
 
 3. Add a `dream` property to the `brain` object that holds the string  'electric sheep':
