@@ -26,7 +26,6 @@ if (crimeFighters.rangers.red === 'Jason') crimeFighters.rangers.blue = 'Bob';
 <br>
 
 ##### 3. What does the expression `crimeFighters.rangers.blue` return?
-<br>
 
 ```js
 var b = "cat";
@@ -39,7 +38,6 @@ a === "duck"
 
 ##### 4. What is the value of `a`?
 <br>
-
 
 ```js
 var myFunc = function() {
@@ -61,7 +59,7 @@ alert(dog);
 ```
 
 ##### 6. What value will be shown in the above `alert`?
-<br><br>
+<br>
 
 ```js
 var stuff = [
