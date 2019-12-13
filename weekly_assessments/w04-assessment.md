@@ -57,15 +57,15 @@ app.listen(3000);
 4. What does SQL stand for? (1 point)
 
 * a) Simulation Quits Looping
-* b) Simple Query Language
+* b) Select Query Language
 * c) Simultaneous Quantum Leaps
 * d) Structured Query Language
 * e) Structured Query Loop
 
 5. PostgreSQL is what type of database? (1 point)
 
-* a) Rational Database
-* b) Separational Integrated Query Structure
+* a) Recreational Database
+* b) It's an ORM
 * c) LINQ (Language Integrated Queries)
 * d) Embedded Database
 * e) Relational Database
