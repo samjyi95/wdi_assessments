@@ -30,7 +30,7 @@ You can assume we're using Node, Express, Sequelize, and PostgreSQL for the foll
 * e) both a & d
 <br><br>
 
-3. You want to use Sequelize in a project. How do you start? (1 point)
+3. After you have set up a project and installed Sequelize, how do you begin using it? (1 point)
 
 * a) nodemon
 * b) npm init
