@@ -1,4 +1,4 @@
-## NAME: ____________________ &nbsp; &nbsp; &nbsp; &nbsp; _______ of 12
+## NAME: ____________________ &nbsp; &nbsp; &nbsp; &nbsp; _______ of 13
 
 ### Forms
 
@@ -21,7 +21,7 @@ You have access to the following routes:
 You can assume we're using Node, Express, Sequelize, and PostgreSQL for the following questions.
 <br><br>
 
-2. How can I create a new database called `my_db`? (1 point)
+2. How can I create a new database called `my_db`? (2 points)
 
 * a) use the GUI in postico/pg admin
 * b) sequelize create:database --name my_db
