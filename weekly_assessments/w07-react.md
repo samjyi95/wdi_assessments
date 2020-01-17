@@ -2,7 +2,7 @@
 
 ## React Fundamentals
 
-1. A constructor is only called once? (1 point)
+1. A constructor in a class-based React component is only called once? (1 point)
 
 * a) True
 * b) False
