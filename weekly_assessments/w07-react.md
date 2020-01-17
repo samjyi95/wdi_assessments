@@ -9,7 +9,7 @@
 
 <br><br>
 
-2. If you aren't doing anything special when you initialize a component, you don't need to define a constructor method? (2 points)
+2. If you aren't doing anything special when you initialize a class-based component, you don't need to define a constructor method? (2 points)
 
 * a) False, a constructor is required for initialization
 * b) False, an initialize function is needed instead
