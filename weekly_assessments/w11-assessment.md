@@ -55,9 +55,9 @@ Big Θ (theta)			Worst Case
 
 ```
 a) Abstraction		
-b) Ambiguity
-c) Association
-d) Automation
+b) Association
+c) Automation
+d) Classes
 e) Coefficiency	
 f) Continuous Integration
 g) Deprecation
@@ -65,9 +65,9 @@ h) Encapsulation
 i) Encryption
 j) Inheritance 
 k) Instantiation 
-l) Merging
+l) Moore's Law
 m) Optimization
-n) Oscillation
+n) Parasaurolophus
 o) Paramorphism
 p) Polymerization 
 q) Polymorphism
@@ -77,7 +77,7 @@ t) Sandboxing
 u) Supercession
 v) Supersets 
 w) Telecommunications
-x) Transistance
+x) Transistors
 y) Type Coersion
 z) Virtualization
 ```
