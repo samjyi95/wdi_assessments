@@ -1,4 +1,4 @@
-# Week 11 Conceptual - NAME: ___________  `__/24`
+# Week 11 Conceptual - NAME: ___________  `__/26`
 
 
 ## MVC
@@ -107,4 +107,20 @@ b) O(n * log n)
 c) O(log n)
 d) O(1)
 e) 1983
+```
+
+#### 10. These two methods are found on a Stack data structure. (Circle exactly 2 - 2 points)
+```
+a) Push
+b) Dequeue
+c) Append
+d) Queue
+e) Pop
+f) Deque
+g) Insert
+h) Shift
+i) Unshift
+j) Delete
+k) Slice
+l) Copy
 ```
