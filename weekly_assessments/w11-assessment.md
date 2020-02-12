@@ -6,9 +6,9 @@
 #### 1. What does MVC stand for? (Choose one - 1 point)
 
 ```
-a) mustaches, vests, coffee			b) model, viewport, change
-c) modals, views, controls  			d) model, view, controller
-e) movies, video games, cheetos			f) master, version control
+a) mustaches, vests, coffee			  b) model, viewport, cache
+c) modals, views, classes  			  d) model, view, controller
+e) movies, video games, cheetos		f) master, version control
 ```
 
 #### 2. Other than being great to pull out at parties, the Bubble Sort algorithm is: (Circle all that apply - 6 points)
