@@ -1,4 +1,4 @@
-# Week 11 Conceptual - NAME: ___________  `__/21`
+# Week 11 Conceptual - NAME: ___________  `__/24`
 
 
 ## MVC
@@ -80,4 +80,31 @@ w) Telecommunications
 x) Transistors
 y) Type Coersion
 z) Virtualization
+```
+
+#### 7. Which of the following is a distribution sort? (1 point)
+```
+a) Insertion Sort
+b) Bubble sort
+c) Counting Sort
+d) Merge Sort
+e) Bogo Sort
+```
+
+#### 8. Which of the following sorts would be considered a "divide and conquer" sort? (1 point)
+```
+a) Insertion Sort
+b) Bubble sort
+c) Counting Sort
+d) Merge Sort
+e) Bogo Sort
+```
+
+#### 9. The Binary Search algorithm has a worst-case time complexity of ____? (1 point)
+```
+a) O(n)
+b) O(n * log n)
+c) O(log n)
+d) O(1)
+e) 1983
 ```
