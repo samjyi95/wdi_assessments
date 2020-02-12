@@ -6,8 +6,8 @@
 #### 1. What does MVC stand for? (Choose one - 1 point)
 
 ```
-a) mustaches, vests, coffee			    b) model, viewport, cache
-c) modals, views, classes  			    d) model, view, controller
+a) mustaches, vests, coffee			 b) model, viewport, cache
+c) modals, views, classes  			 d) model, view, controller
 e) movies, video games, cheetos		  f) master, version control
 ```
 
