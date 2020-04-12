@@ -7,7 +7,7 @@ document.getElementById('result').defaultValue='0';
 //(f - 32) * 5 / 9
 function farToCel() {
     let temp = document.getElementById('input').value
-    let newTemp = (parseInt(temp) - 32) * 5 / 9
+    let newTemp = `${(parseInt(temp) - 32) * 5 / 9} C`
     console.log(newTemp)
     result.innerHTML = newTemp
     if (newTemp > 30) {
